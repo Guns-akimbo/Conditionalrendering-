@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background-color: black;
+}
+
+.Container {
+
+  width: 100%;
+  min-height: 400vh;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardwrapper {
+  height: 80vh;
+  width: 69%;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 70%;
+  height: 30vh;
+  background-color: purple;
+  border-radius: 15px;
+  display: flex;
+  padding: 9px;
+  opacity: 0.9;
+}
+
+.leftcard {
+  width: 30%;
+  height: 100%;
+  background-color: yellow;
+  border-radius: 5px 0 0 5px;
+  padding: 25px;
+  background-color: rgb(43, 39, 95);
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.leftcard h3 {
+  color: white;
+  font-size: 25px;
+  color: rgb(140, 135, 235);
+}
+
+.stack {
+  color: yellow;
+  font-size: 35px;
+  font-family: monospace;
+}
+
+.stacks {
+  color: green;
+  font-size: 35px;
+  font-family: monospace;
+}
+
+
+.leftcard p {
+  color: white;
+  font-size: 20px;
+  color: rgb(140, 135, 235);
+
+
+}
+
+.middlecard {
+  width: 40%;
+  height: 100%;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 60px;
+  
+}
+
+.middlecard p {
+  font-size: 30px;
+  color: darkblue;
+}
+
+.username {
+  font-size: 30px;
+  color: darkblue;
+
+}
+
+
+.other {
+  font-size: 20px;
+  font-family: monospace;
+  padding-inline: 5px;
+  width: 70px;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  border: 1px solid rgb(43, 39, 95);
+  background-color: green;
+  color: whitesmoke;
+  cursor: pointer;
+  margin-left: 70%;
+}
+
+
+
+.rightcard {
+  width: 29%;
+  height: 100%;
+  background-color: white;
+  border-radius: 0px 4px 4px 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  position: relative;
+}
+
+.rightcard p {
+  font-size: 30px;
+  font-family: monospace;
+  color: rgb(43, 39, 95);
+}
+
+.gender {
+  font-size: 20px;
+  font-family: monospace;
+  padding-inline: 5px;
+  width: 75px;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  border: 1px solid rgb(43, 39, 95);
+  background-color: darkblue;
+  color: whitesmoke;
+  position: relative;
+  top: 70%;
+  left: 69%;
+  cursor: pointer;
+}
